@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "accounting-mcp-server": {
+      "command": "python",
+      "args": ["mcp_server/server.py"],
+      "cwd": ".",
+      "env": {
+        "API_BASE_URL": "http://localhost:8000"
+      }
+    }
+  }
+}
